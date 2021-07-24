@@ -1,0 +1,153 @@
+<!-- ======= About Section ======= -->
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+    <br>
+        <p>About Us</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+          
+          <img src="../../assets/img/ictabout.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <h3>What is ICT Academy of Kerala?</h3>
+          <br>
+          <p class="font-italic">
+            ICT Academy of Kerala is a Social Enterprise created in a Public Private Partnership model (PPP) for imparting ICT skills to the youths of Kerala and improve their employability opportunities in the Industry. The Company is supported by Govt. of India , partnered by Govt. of Kerala and the IT industry.
+          </p>
+          <ul>
+            <li><i class="icofont-check-circled"></i> Industry focused enablement programmes for Faculty members</li>
+            <li><i class="icofont-check-circled"></i> Industry focused ICT Skills development programmes for Students</li>
+            <li><i class="icofont-check-circled"></i> Project assignments related to capability building for Institutions and Corporate.</li>
+            <li><i class="icofont-check-circled"></i> Creating Intellectual Property on niche skill areas and emerging technologies.</li>
+            
+          </ul>
+       
+        
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+  
+      <!-- ======= Why Us Section ======= -->
+      <section id="why-us" class="why-us">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row">
+            <div class="col-lg-4 d-flex align-items-stretch">
+              <div class="content">
+                <h3>Why to Choose us?</h3>
+                <ul>
+                 
+            <li><i class="icofont-check-circled"></i> Government supported and Industry-led Program</li>
+            <li><i class="icofont-check-circled"></i> Government scholarships and affordable fees model</li>
+            <li><i class="icofont-check-circled"></i> One-stop shop for Students, Unemployed and Working professionals</li>
+                </ul>
+                <div class="text-center">
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-boxes d-flex flex-column justify-content-center">
+                <div class="row">
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-receipt"></i>
+                      <h4>Mission</h4>
+                      <p>
+                        content
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-cube-alt"></i>
+                      <h4>Vision</h4>
+                      <p>To emerge as the single-point establishment for all the ICT related capability building in the State
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 d-flex align-items-stretch">
+                    <div class="icon-box mt-4 mt-xl-0">
+                      <i class="bx bx-images"></i>
+                      <h4>
+                        head
+
+                      </h4>
+                      <p>
+                        content
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- End .content-->
+            </div>
+          </div>
+  
+        </div>
+      </section><!-- End Why Us Section -->
+
+      <!-- Partners section -->
+      <section id="partners" class="partners">
+        <div class="container" data-aos="fade-up" >
+          <div class="section-title">
+            <h2>Partners</h2>
+            <p>Industrial Partners</p>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="100" >
+            <owl-carousel-o [options]="customOptions">
+              <ng-template carouselSlide *ngFor="let partnersArrays of industryPartnersArray"> <img src="{{partnersArrays.imgName}}" alt="Partners"></ng-template>  
+             
+            </owl-carousel-o>
+
+          </div>
+
+
+        
+
+          <div class="section-title">
+            
+            <p>Knowledge Partners</p>
+          </div>
+          <div data-aos="zoom-in" data-aos-delay="100">
+            <owl-carousel-o [options]="customOptions">
+              <ng-template carouselSlide *ngFor="let partnersArrays of knwdgPartnersArray"> <img src="{{partnersArrays.imgName}}" alt="Partners"></ng-template>  
+             
+            </owl-carousel-o>
+
+          </div>
+
+          
+        </div>
+      </section>
+
+
+      
+  <!-- ======= Trainers Section ======= -->
+  <section id="trainers" class="trainers">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Team</h2>
+        <p>Our Hard Working Team</p>
+      </div>
+
+      <app-team-list></app-team-list>
+
+   
+
+    </div>
+  </section><!-- End Trainers Section -->
+
+
+      
+
+
+      
